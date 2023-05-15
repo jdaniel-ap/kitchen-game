@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class KitchenObj : MonoBehaviour
 {
-    [SerializeField] private ScriptableObject KitchenObjSO;
+    [SerializeField] private KitchenObjOB KitchenObjSO;
 
-     public ScriptableObject GetObjOS() {
+     public KitchenObjOB GetObjOS() {
         return KitchenObjSO;
     }
 }
